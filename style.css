@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krona+One&family=Ysabeau+Office:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0; /* isso aqui "reseta" os posicionamentos de todo conteúdo*/
+}
+
+body{
+    height: 100vh; /* faz ocupar 100% da tela visível */
+    box-sizing: border-box;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+}
+
+.site-content-presentation{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-position{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 643px;
+}
+
+.strong-highlight{
+    color: rgb(173, 162, 226);
+}
+
+.title-style{
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+}
+
+.content-text-style{
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.social-button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.title-style-second{
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.button-style{
+    border: 1px solid rgb(173, 162, 226);
+    width: 300px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.photo-style{
+    border-radius: 15px;
+}
+
