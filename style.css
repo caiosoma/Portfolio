@@ -72,3 +72,6 @@ body{
     border-radius: 15px;
 }
 
+.button-style:hover {
+    background-color: rgb(214, 214, 214);
+}
